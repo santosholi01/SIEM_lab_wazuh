@@ -1,5 +1,5 @@
-Download the Wazuh-agent in window 10(VM)
-you can download with two method:
+## Download the Wazuh-agent in window 10(VM)
+   you can download with two method:
   1. from official wazuh website
    2. Through command(open powershell in administration and paste it)
       => Invoke-WebRequest -Uri https://packages.wazuh.com/4.x/windows/wazuh-agent-4.7.0-1.msi -OutFile wazuh-agent.msi
@@ -7,8 +7,11 @@ you can download with two method:
 
 Go to the files where it was downloded(in download section if not go to driveC:/windows/system32)
 
-install the wazuh-agent and then check if wazuh service is started or not,
-  open command in administration and 
+1. install the wazuh-agent 
+2. a interface come then enter the Wazuh-manager ip address(kali linux)
+3. If not then go to file explore , C:/program files (*86)/ossec-agent/wun32ui and add the manager ip
+   
+4. open command in administration
      => net start wazuh
  If the wazuh-agent is started, you will see the message ,
        "wazuh service is starting, wazuh service was started successfully"
