@@ -1,3 +1,30 @@
 # how to download the virtual machine and wazuh server
 
 Step-by-step guide to install wazuh using the virtual machine 
+
+
+INSTALL wazuh-server
+  => curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+ (note: replace the 4.7 as your wazuh version )
+you will get the admin and password (save it elsewhere requires to login the wazuh dashboard)
+
+Check the status(if wazuh is running or not):
+ => systemctl status wazuh-manager
+  => systemctl status wazuh-dashboard
+ => systemctl status wazuh-indexer
+
+    If one outof three isnot running , it will not open the wazuh in browser(stat the one that is not running)
+    => systemctl start wazuh-manager
+    => systemctl start wazuh-dashboard
+    => systemctl start wazuh-indexer
+
+   if it is still not running, chck you internet connection:
+             =>ping google.com, or 8.8.8.8
+
+After doing all this, check you ip address:
+   =>ipconfig, or ip a
+Go to you broweser, input you ip address, you will see the warming but continue to open, then 
+you will see the login section, inter the admin and password(provided during installation of wazuh-server)
+Then you will be directed to the wazuh dashboard
+        
+
