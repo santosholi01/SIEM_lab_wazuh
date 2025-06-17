@@ -18,4 +18,10 @@
 
 ## Enviroment setup
 ### Deploying Wazuh Server VM
-
+### Deploying kali VM
+### Depooying windows VM
+## Deploying wazuh Agents
+### Deploying wazuh Agent to windows VM
+## Testing our Agents
+### Manual Testing
+### Automated Testing
