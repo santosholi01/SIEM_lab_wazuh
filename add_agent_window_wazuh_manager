@@ -1,0 +1,6 @@
+Open the Wazuh-dashboard in kali linux browser,
+ click the add-agent
+ add the wazuh-server ip address(that is kali ip address)
+copy the cliboard and then open the command in window VM , paste it
+Now, refresh the wazuh-dashboard and you will see the one agent active,, click it,
+you can now analyst the window system through wazah dashboard in kali linux
