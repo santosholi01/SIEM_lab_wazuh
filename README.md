@@ -74,5 +74,20 @@ we are given defalult credentials, we can changing the password or admin. After 
 At this pont we've deployed a wazuh-agent that is sending its logs/checking in to the Wazuh-Server.
  
 ### Manual Testing
-  
+  To start let's create the administrative account in window VM( wazuh-agent)
+     =>>> net user username password /add
+     =>>> net localgroup Administrators username /add
+
+  ![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/f1c23641111a4ca9394a9432d97e480bb264a7de/screenshot/command_to_create_group_administrtion_.png)
+
+Check the wazuh-dashboard to check the alert,  you can see we have "adminstration group-change" alert::
+  go to security  events
+
+![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/f1c23641111a4ca9394a9432d97e480bb264a7de/screenshot/administration_group_change_dashboard_.png)
+
+If you want more detail about this alert go to  MITRE ATT&CK::
+
+![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/f1c23641111a4ca9394a9432d97e480bb264a7de/screenshot/details_of_administration_.png)
+
+
 ### Automated Testing
