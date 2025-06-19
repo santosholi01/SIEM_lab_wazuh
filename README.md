@@ -1,6 +1,6 @@
 # SIEM lab using wazuh
   Deploying the open-source SIEM/EDR solution wazuh and stress the testing capabilities of the platform
- ![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/0bfeebafb42393f2407a4d44ab82ad72203108fe/screenshot/Screenshot.png)
+ ![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/0f670e05446898d494718d196bfb62ee9510e11b/screenshot/display_____SIEM____Dashboard.png)
  
 ## Table of Contents
 
