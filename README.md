@@ -91,3 +91,13 @@ If you want more detail about this alert go to  MITRE ATT&CK::
 
 
 ### Automated Testing
+ Now we've done some manual testing let's try using an Endpoint Detection and Response(EDR) testing  script that
+ will perform a few MITRE ATT&CK techniques but the payload is the windows calculator, you download the script through github [here](https://github.com/op7ic/EDR-Testing-Script/tree/master)
+ Or you can directly through command and implement
+  =>>>Invoke-WebRequest -Uri "https://raw.githubusercontent.com/op7ic/EDR-Testing-Script/master/runtests.bat" -          OutFile "$env:USERPROFILE\Desktop\runtests.bat"
+  Then navigate to desktop(as it is downloded in desktop)
+     =>>>cd $env:USERPROFILE\Desktop
+finally, run the test script:
+   =>>> .\runtests.bat
+ ![Alt Text]()
+   After this , different operation continue to perform as if it was by attacker
