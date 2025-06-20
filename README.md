@@ -6,8 +6,6 @@
 
 -[Environment setup](#enviroment-setup)
   - [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
-  - [Deploying Kali VM](#deploying-kali-vm)
-  - [Deploying Windows VM](#deploying-windows-vm)
 - [Deploying Wazuh Agents](#deploying-wazuh-agents)
   - [Deploying Wazuh Agent to Windows VM](#deploying-wazuh-agent-to-windows-vm)
 - [ Testing our Agents](#stress-testing-our-agents)
