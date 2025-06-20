@@ -8,7 +8,7 @@
   - [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
 - [Deploying Wazuh Agents](#deploying-wazuh-agents)
   - [Deploying Wazuh Agent to Windows VM](#deploying-wazuh-agent-to-windows-vm)
-- [ Testing our Agents](#stress-testing-our-agents)
+- [Testing our Agents](#stress-testing-our-agents)
   - [Manual Testing](#manual-testing)
   - [Automated Testing](#automated-testing)
 
