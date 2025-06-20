@@ -101,3 +101,20 @@ finally, run the test script:
    =>>> .\runtests.bat
  ![Alt Text]()
    After this , different operation continue to perform as if it was by attacker
+   This is what you will see after running the attack:
+    ![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/7c8fa1bb5e34b510e2372cf5790ac7be96d5db2e/screenshot/automation_popup_simulation.png)
+
+Then, go to the wazuh-dashboard , in MITRE AAT&CK section:
+In Top tactices pie-chart:
+
+![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/7c8fa1bb5e34b510e2372cf5790ac7be96d5db2e/screenshot/threat_categorzing%20by_MIRTIE_.png)
+
+Under the "top tactics" pie chart ,click persistence and then go to Events section,:
+
+![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/7c8fa1bb5e34b510e2372cf5790ac7be96d5db2e/screenshot/new_widnow_service_created_auto.png)
+
+While exploring the results an event log showing a new service being created sparked interest. Let's go furthr:
+![Alt Text](https://github.com/santosholi01/SIEM_lab_wazuh/blob/7c8fa1bb5e34b510e2372cf5790ac7be96d5db2e/screenshot/evilservice_auto__a.png)
+
+    
+    
