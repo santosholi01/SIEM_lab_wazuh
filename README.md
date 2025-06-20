@@ -8,7 +8,7 @@
   - [Deploying Wazuh Server VM](#deploying-wazuh-server-vm)
 - [Deploying Wazuh Agents](#deploying-wazuh-agents)
   - [Deploying Wazuh Agent to Windows VM](#deploying-wazuh-agent-to-windows-vm)
-- [Testing our Agents](#stress-testing-our-agents)
+- [Testing our Agents](#testing-our-agents)
   - [Manual Testing](#manual-testing)
   - [Automated Testing](#automated-testing)
 
@@ -69,8 +69,7 @@ we are given defalult credentials, we can changing the password or admin. After 
     
    
 ## Testing our Agents
-At this pont we've deployed a wazuh-agent that is sending its logs/checking in to the Wazuh-Server.
- 
+ At this pont we've deployed a wazuh-agent that is sending its logs/checking in to the Wazuh-Server. 
 ### Manual Testing
   To start let's create the administrative account in window VM( wazuh-agent)
      =>>> net user username password /add
